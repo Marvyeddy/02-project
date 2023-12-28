@@ -1,0 +1,28 @@
+@media screen and (width <=428px){
+    body{
+        background-image: url('./assets/images/background-pattern-desktop.svg');
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-attachment: fixed;
+    }
+
+    .faq-accordion {
+    background-color: var(--white);
+     width: 350px;
+    margin: 60px auto;
+    font-size: 12px;
+    border-radius: 16px;
+    padding: 20px;
+    }
+
+    .faq-dropdown {
+    width: 20rem;
+    font-size: 10px;
+    }
+
+    .para{
+        width: 100%;
+    }
+}
+
